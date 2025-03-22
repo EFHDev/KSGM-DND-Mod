@@ -1,0 +1,26 @@
+{
+  "itemGroup.ksgm": "Example Mod Tab",
+  "block.ksgm.example_block": "Example Block",
+  "item.ksgm.example_item": "Example Item",
+  "item.ksgm.summoner_heart": "Heart of The Summoner of Life and Death",
+  "item.ksgm.summoner_branch": "Astral Tree Branch",
+  "item.ksgm.wooden_helmet": "Midnight’s Mien",
+  "item.ksgm.wooden_chestplate": "Eclipse Enclosure",
+  "item.ksgm.nyx_sword": "Dusk’s Dominion",
+  "item.ksgm.wooden_leggings": "Twilight’s Traverse",
+  "item.ksgm.wooden_boots": "Night’s Nadir",
+  "item.ksgm.pyro_quartz_apple": "Pyroquartz Apple",
+  "item.ksgm.pyro_quartz_shard": "Pyroquartz Shard",
+  "item.ksgm.pyro_quartz_cluster": "Pyroquartz Cluster",
+  "death.attack.ksgm.blunt_damage": "%1$s was pummeled into the ground while figting %2s",
+  "death.attack.ksgm.slice_damage": "%1$s cleanly severed %2s thead of life.",
+  "death.attack.ksgm.puncture_damage": "%1$s landed a pericing blow on %2s.",
+  "death.attack.ksgm.magic_damage": "%1$s magic twisted %2s essance.",
+  "death.attack.ksgm.heat_damage": "%1$s burned %2s to a crisp.",
+  "death.attack.ksgm.cold_damage": "%1$s icy grip froze %2s heart.",
+  "death.attack.ksgm.caustic_damage": "%1$s acid ate through %2s defenses.",
+  "death.attack.ksgm.radiation_damage": "%1$s unseen rays unraveled %2s cell by cell.",
+  "item.spear.offhand_full": "I need both hands free to attack properly!"
+
+
+}

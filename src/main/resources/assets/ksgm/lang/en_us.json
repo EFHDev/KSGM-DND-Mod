@@ -20,7 +20,9 @@
   "death.attack.ksgm.cold_damage": "%1$s icy grip froze %2s heart.",
   "death.attack.ksgm.caustic_damage": "%1$s acid ate through %2s defenses.",
   "death.attack.ksgm.radiation_damage": "%1$s unseen rays unraveled %2s cell by cell.",
-  "item.spear.offhand_full": "I need both hands free to attack properly!"
+  "death.attack.ksgm.bleed_damage": "%1$s bled to death",
+  "item.spear.offhand_full": "I need both hands free to attack properly!",
+  "potion.ksgm.bleed": "Bleeding"
 
 
 }

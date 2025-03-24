@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ksgm:bleed_damage",
+    "ksgm:caustic_damage",
+    "ksgm:cold_damage",
+    "ksgm:heat_damage",
+    "ksgm:radiation_damage"
+  ]
+}

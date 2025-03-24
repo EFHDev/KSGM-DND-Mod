@@ -30,6 +30,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.kestrel.ksgm.common.DamageType.DamageTypes;
 import org.kestrel.ksgm.common.effects.ModEffects;
 import org.kestrel.ksgm.common.items.ModdedCreativeTabs;
 import org.kestrel.ksgm.common.items.ModdedItems;
@@ -69,6 +70,7 @@ public class Ksgm {
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
+        DamageTypes.registerDamageTypes();
         ModdedItems.register(modEventBus);
         ModEffects.register(modEventBus);
         BLOCKS.register(modEventBus);

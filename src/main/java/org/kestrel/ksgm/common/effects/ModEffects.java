@@ -22,6 +22,10 @@ public class ModEffects {
                             ResourceLocation.fromNamespaceAndPath(MODID, "forests_blessing"), +0.05f,
                             AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
+    public static final Holder<MobEffect> Bleed = MOB_EFFECTS.register("bleed",
+            () -> new Bleed(MobEffectCategory.HARMFUL, 0x36ebab));
+
+
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }

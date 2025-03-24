@@ -15,6 +15,8 @@ import org.kestrel.ksgm.common.attributes.ModdedAttributes;
 
 import java.util.Objects;
 
+import static org.kestrel.ksgm.Ksgm.MODID;
+
 public class ForestBlessing extends MobEffect {
     private boolean inForest = false; // Track if the player is currently in a forest biome
 
@@ -22,7 +24,7 @@ public class ForestBlessing extends MobEffect {
         super(category, color);
     }
 
-    private ResourceLocation id = ResourceLocation.fromNamespaceAndPath("yourmodid", "my_modifier");
+    private ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MODID, "forest_blessing_modifier");
     // The modifier itself.
     private AttributeModifier modifier = new AttributeModifier(
             id,

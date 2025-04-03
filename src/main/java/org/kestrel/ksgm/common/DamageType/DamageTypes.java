@@ -1,5 +1,8 @@
 package org.kestrel.ksgm.common.DamageType;
 
+/*
+ Copyright (c) Kestrel0 2025. CC BY-NC-SA 4.0
+ */
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;

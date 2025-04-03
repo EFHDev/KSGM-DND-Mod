@@ -1,5 +1,8 @@
 package org.kestrel.ksgm.common.attributes;
 
+/*
+ Copyright (c) Kestrel0 2025. CC BY-NC-SA 4.0
+ */
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -8,7 +11,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static org.kestrel.ksgm.Ksgm.MODID;
 
-public class ModdedAttributes {
+public class ModdedAttributes  {
 
 
     public static final ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MODID, "forests_blessing");

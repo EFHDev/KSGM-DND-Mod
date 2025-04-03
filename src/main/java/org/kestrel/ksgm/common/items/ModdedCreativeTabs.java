@@ -1,5 +1,8 @@
 package org.kestrel.ksgm.common.items;
 
+/*
+ Copyright (c) Kestrel0 2025. CC BY-NC-SA 4.0
+ */
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

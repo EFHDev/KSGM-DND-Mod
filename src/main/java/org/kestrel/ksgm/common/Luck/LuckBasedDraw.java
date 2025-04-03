@@ -1,5 +1,8 @@
 package org.kestrel.ksgm.common.Luck;
 
+/*
+ Copyright (c) Kestrel0 2025. CC BY-NC-SA 4.0
+ */
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
 
@@ -7,7 +10,7 @@ import java.util.Random;
 
 public class LuckBasedDraw {
     private static final Random RANDOM = new Random();
-
+ 
     /**
      * Determines the "winner" between two players based on their luck.
      *

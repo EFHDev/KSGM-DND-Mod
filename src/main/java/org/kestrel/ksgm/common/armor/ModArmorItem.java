@@ -1,4 +1,7 @@
 package org.kestrel.ksgm.common.armor;
+/*
+ Copyright (c) Kestrel0 2025. CC BY-NC-SA 4.0
+ */
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.core.Holder;
 import net.minecraft.world.effect.MobEffectInstance;

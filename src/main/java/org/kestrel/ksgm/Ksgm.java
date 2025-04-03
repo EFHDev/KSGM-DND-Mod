@@ -1,5 +1,8 @@
 package org.kestrel.ksgm;
 
+/*
+ Copyright (c) Kestrel0 2025. CC BY-NC-SA 4.0
+ */
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -31,6 +34,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.kestrel.ksgm.common.DamageType.DamageTypes;
+import org.kestrel.ksgm.common.attachments.ModAttachments;
 import org.kestrel.ksgm.common.effects.ModEffects;
 import org.kestrel.ksgm.common.items.ModdedCreativeTabs;
 import org.kestrel.ksgm.common.items.ModdedItems;
@@ -41,6 +45,8 @@ import org.slf4j.Logger;
 public class Ksgm {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "ksgm";
+    public static final String KFPrefixSimple = "§8[§l§4K§fF§r§8]§r";
+
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "ksgm" namespace
@@ -78,6 +84,8 @@ public class Ksgm {
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         ModdedCreativeTabs.register(modEventBus);
+        ModAttachments.ATTACHMENTS.register(modEventBus);
+
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (Ksgm) to respond directly to events.
@@ -100,6 +108,7 @@ public class Ksgm {
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+
     }
 
     // Add the example block item to the building blocks tab
